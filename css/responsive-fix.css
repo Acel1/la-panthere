@@ -23,16 +23,12 @@ div {
 }
 
 .social {
-  max-width: none;
-  margin: 20px 0;
-}
-
-.social__list {
   display: flex;
   justify-content: space-between;
+  margin: 25px auto;
 }
 
-.social__list .keywords {
+.social .keywords {
   display: none;
 }
 
