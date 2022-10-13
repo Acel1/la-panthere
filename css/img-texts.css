@@ -1,0 +1,17 @@
+.citation {
+  margin: 18px auto;
+  font-weight: 600;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+/* "L'agence La Panthère est une excellente agence web ! [...]" */
+.citation span:first-child {
+  font-style: italic;
+  margin: 20px auto;
+}
+
+/* "Maxime Guibard, PDG de A vos fourchettes" */
+.citation span:last-child {
+  font-weight: 300;
+}
