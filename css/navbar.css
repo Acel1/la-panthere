@@ -61,3 +61,7 @@ nav {
   transition: all 0.1s ease;
   color: #f3976c !important;
 }
+.nav__item > a:focus {
+  transition: all 0.1s ease;
+  color: #f3976c !important;
+}

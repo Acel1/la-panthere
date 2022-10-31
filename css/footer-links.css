@@ -1,5 +1,4 @@
 .footer__list {
-  padding-inline: 0;
 }
 
 .footer__list li {
@@ -8,7 +7,8 @@
 }
 .footer__list a {
   font-size: 1.2em;
-  padding: 16px;
+  /* padding: 16px; */
+  text-decoration: none;
 }
 
 .underline {
@@ -17,7 +17,7 @@
 .underline::before {
   content: "";
   position: absolute;
-  bottom: 4px;
+  bottom: 0px;
   right: 0;
   width: 0;
   height: 2px;
@@ -27,7 +27,10 @@
 
 @media (hover: hover) and (pointer: fine) {
   .underline:hover::before {
-    left: 16px;
+    right: auto;
+    width: 100%;
+  }
+  .underline:focus::before {
     right: auto;
     width: 100%;
   }
